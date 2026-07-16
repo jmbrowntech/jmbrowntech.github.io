@@ -243,3 +243,26 @@ footer {
   .contact-card { padding: 30px 22px; }
   .footer-wrap { flex-direction: column; }
 }
+
+.headshot-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.professional-headshot {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  object-position: center 20%;
+  border-radius: 50%;
+  border: 5px solid #ffffff;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
+}
+
+@media (max-width: 768px) {
+  .professional-headshot {
+    width: 220px;
+    height: 220px;
+  }
+}
